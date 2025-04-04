@@ -1,6 +1,6 @@
-## GEN711 Final Project
+# GEN711 Final Project
 
-# By: 
+## By: 
 - Kendell Chase & Avery Hathaway
 
 # Background
