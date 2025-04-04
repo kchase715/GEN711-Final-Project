@@ -1,6 +1,7 @@
 # GEN711 Final Project
+Pond Microbiome Study
 
-## By: 
+## Members 
 - Kendell Chase & Avery Hathaway
 
 ## Background
