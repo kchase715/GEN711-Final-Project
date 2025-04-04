@@ -3,14 +3,14 @@
 ## By: 
 - Kendell Chase & Avery Hathaway
 
-# Background
+## Background
 - title of paper 
 - authors 
 - Summary of original project 
 - what data are you using from paper (16s sanger sequencing, whole genome HiC, transcriptome 150bp illumina, etc) 
 - what is the goal of your project (e.g. to identify differences in microbiome composition, to identify genes associated with a specific phenotype, etc)
 
-# Methods
+## Methods
 - Where data is from
 - what type of data is it (150bp illumina, 16s sanger sequencing, etc)
 - where are you performing your analysis (RON, Premise, laptop, etc)
@@ -22,7 +22,7 @@
 - write out whole pipeline ...
 - how did you visualize your results (R, python, qiime2 visualizer, etc)
 
-# Findings
+## Findings
 - Label figure (Figure1)
 - What kind of plot is it? (Venn Diagram)
 - What does the plot show (the number of unique genes in each sample, the number of genes shared between samples)
@@ -31,4 +31,4 @@
 - figure caption formatting (not like the list above)
 - Do this for 2 figures
 
-# Citations
+## Citations
