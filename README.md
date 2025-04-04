@@ -7,29 +7,29 @@
 ## Background
 - title of paper 
 - authors 
-- Summary of original project 
-- what data are you using from paper (16s sanger sequencing, whole genome HiC, transcriptome 150bp illumina, etc) 
-- what is the goal of your project (e.g. to identify differences in microbiome composition, to identify genes associated with a specific phenotype, etc)
+- summary of original project 
+- what data are you using from paper?
+- what is the goal of your project?
 
 ## Methods
-- Where data is from
-- what type of data is it (150bp illumina, 16s sanger sequencing, etc)
-- where are you performing your analysis (RON, Premise, laptop, etc)
-- what program did you use first (fastqc, trimmomatic, etc)
-- what that program did (trimmed reads, output statistics, etc)
-- a paragraph or two at most for each tool
-- what did that produce (fastq, bam, vcf, etc)
-- what program did you use next (bowtie2, samtools, etc)
+- where is the data from?
+- what type of data are you using?
+- where are you performing your analysi?
+- what program did you use first?
+- what did the program do?
+        - a paragraph or two at most (for each tool)
+- what did that produce?
+- what program did you use next?
 - write out whole pipeline ...
-- how did you visualize your results (R, python, qiime2 visualizer, etc)
+- how did you visualize your results?
 
 ## Findings
-- Label figure (Figure1)
-- What kind of plot is it? (Venn Diagram)
-- What does the plot show (the number of unique genes in each sample, the number of genes shared between samples)
-- How did you create the plot (R, python, qiime2 visualizer, etc)
-- What was the input to the plot (gene names + counts from bowtie2, etc)
-- figure caption formatting (not like the list above)
-- Do this for 2 figures
+- label figure (Figure1)
+- what kind of plot is it? (i.e., venn diagram)
+- what does the plot show? 
+- how did you create the plot?
+- what was the input to the plot?
+- figure caption formatting
+       - (do this for 2 figures)
 
 ## Citations
