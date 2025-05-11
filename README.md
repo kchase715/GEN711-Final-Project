@@ -1,53 +1,64 @@
 # GEN711 Final Project
 ## Pond Microbiome Study
 
-## Members 
-- Kendell Chase & Avery Hathaway
+### Members 
+- Kendell Chase
+- Avery Hathaway
+
+---
 
 ## Background
-- The data for this project was borrowed from a graduate student who is studying the microbiome composition of duckweed. We recieved 40 paired-end fastq files and a metadata file. The sequencing was performed on an Illumina HiSeq 2500 platform and 250 bp paired-end reads were produced. 
-- The dataset included:
-        - 20 total samples
-        - Two pond sampling locations
-        - Two treatments:
-                  - Microbiome sampled from duckweed gathered on surface of the pond
-                  - Microbiome sampled from the pond water
-        - 5 replicates per treatment per location
-        - A metadata file for sample groupings
-        - A manifest file for Qiime2 import
-- Our goal was to analyze and compare the microbial communities between the duckweed-associated and water-associated microbiomes.
+16s rRNA sequencing data was borrowed from a graduate student studying the microbiome composition of duckweeds.
+The dataset includes:
+
+- 40 paired-end FASTQ files from 20 samples (Illumina HiSeq 2500, 250 bp)
+- Two pond sampling locations
+- Two treatments:
+  - Microbiome from duckweed skimmed off the pond surface
+  - Microbiome from pond water
+- 5 replicates per treatment
+- A metadata file describing the samples
+- A manifest file listing the FASTQ locations
+  
+- **Project Goal:** To analyze and compare the microbial community composition between duckweed and pond water samples.
+
+---
 
 ## Methods
-- **Data Source:** Borrowed from a graduate student working on duckweed microbiomes
-- **Data Type:** 16s rRNA sequencing, paired-end, 250 bp reads
-- **Analysis:** Performed on RON using QIIME2 and conda environments
-- **Pipeline:**
-        1. Importing Data
-                  - Used qiime tools import with metadata and manifest files
-                  - Imported as SampleData[PairedEndSequencesWithQuality]
-        2. Demultiplexing Visualization
-                  - Visualized read quality with qiime demux summarize
-        3. Denoising with DADA2
-                  - Used qiime dada2 denoise-paired
-                  - Output: Feature table, representative sequences, denoising stats
-        4. Filtering Low-Count Features
-                  - Used qiime feature-table filter-features
-        5. Taxonomic Classification
-                  - Trained a custom classifier on Greengenes data
-                  - Classified using qiime feature-classifier classify-sklearn
-        6. Diversity Analysis with q2-boots/q2-kmerizer
-                  - Installed plugins into a downloaded QIIME2 2024.10 environment
-                  - Used qiime boots kmer-diversity with a sampling depth of 2500
-                  - Generated ordination (PCoA) and alpha/beta diversity stats
-        7. Alpha Rarefaction
-                  - qiime diversity alpha-rarefaction with max-depth 2500
-                  - Assessed if sampling depth captured community richness accurately
-        8. Taxonomic Bar Plots
-                  - qiime taxa barplot used to visualize relative abundance by phylum
-        9. Differential Abundance (ANCOM-BC)
-                  - Collapsed features to genus level
-                  - Ran qiime composition ancombc and qiime composition da-barplot
-                  - Compared enrichment/depletion across sample types
+
+### Data Source 
+- Provided by a graduate student working on duckweed microbiomes
+- Data Type: Paired-end 250 bp reads (FASTQ format)
+
+### Analysis
+- Conducted on RON remote cluster with `tmux` and `conda`
+- Code was run in the 'qiime2-amplicon-2024.5' and `qiime2-amplicon-2024.10` environments
+
+### Tools Used
+
+#### QIIME2
+- Used for data import, demultiplexing, denoising with DADA2, taxonomic classification, and diversity analysis
+- Imported FASTQ files using a manifest
+- Denoised using `qiime dada2 denoise-paired`
+- Generated feature table and representative sequences
+
+#### q2-kmerizer + q2-boots
+- Used to perform kmer-based diversity analysis (instead of building phylogenetic trees)
+- Implemented via `qiime boots kmer-diversity`
+- Calculated alpha and beta diversity metrics (e.g., Shannon, Evenness, Bray-Curtis)
+
+#### Alpha Rarefaction
+- Used `qiime diversity alpha-rarefaction` to assess species richness over sequencing depth
+- Chose max-depth of 2500 based on frequency distribution
+
+#### Taxonomic Composition
+- Visualized using `qiime taxa barplot` at phylum level (Level 2)
+
+#### Differential Abundance
+- Collapsed feature table to genus level
+- Ran ANCOM-BC using `qiime composition ancombc`
+- Compared duckweed vs. water samples for significantly enhanced or lacking genera
+
   
 - what did the program do?
         - a paragraph or two at most (for each tool)
