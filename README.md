@@ -32,7 +32,7 @@ The dataset includes:
 
 ### Analysis
 - Conducted on RON remote cluster with `tmux` and `conda`
-- Code was run in the 'qiime2-amplicon-2024.5' and `qiime2-amplicon-2024.10` environments
+- Code was run in the `qiime2-amplicon-2024.5` and `qiime2-amplicon-2024.10` environments
 
 ### Tools Used
 
