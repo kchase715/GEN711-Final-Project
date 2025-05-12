@@ -92,8 +92,8 @@ The dataset includes:
   - `alpha-rarefraction.qzv`
 - Confirms 2500 as a resonable sampling depth
 
-## Final Script and Git Bash Tree
-
+## Final Script
+[View Final Script]
 
 ## Citations
 1. Gut-to-Soil Axis Tutorial Microbiome Marker
