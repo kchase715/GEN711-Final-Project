@@ -90,3 +90,13 @@ The dataset includes:
 - Confirms 2500 as a resonable sampling depth
 
 ## Citations
+1. Gut-to-Soil Axis Tutorial Microbiome Marker
+Gene Analysis with QIIME 2. https://amplicon-
+docs.qiime2.org/en/latest/tutorials/gut-to-
+soil.html#LiWetXeH8D. Accessed 10 May 2025.
+2. QIIME 2 View. https://view.qiime2.org/.
+Accessed 10 May 2025.
+3. Training Feature Classifiers with Q2-Feature-
+Classifier — QIIME 2 2024.2.0 Documentation.
+https://docs.qiime2.org/2024.2/tutorials/feature-
+classifier/. Accessed 10 May 2025.
