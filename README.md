@@ -92,6 +92,9 @@ The dataset includes:
   - `alpha-rarefraction.qzv`
 - Confirms 2500 as a resonable sampling depth
 
+## Final Script and Git Bash Tree
+
+
 ## Citations
 1. Gut-to-Soil Axis Tutorial Microbiome Marker
 Gene Analysis with QIIME 2. https://amplicon-
