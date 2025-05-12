@@ -93,7 +93,7 @@ The dataset includes:
 - Confirms 2500 as a resonable sampling depth
 
 ## Final Script
-[View Final Script]
+[View Final Script](script.sh)
 
 ## Citations
 1. Gut-to-Soil Axis Tutorial Microbiome Marker
