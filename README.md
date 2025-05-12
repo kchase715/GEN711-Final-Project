@@ -62,14 +62,6 @@ The dataset includes:
 - Ran ANCOM-BC using `qiime composition ancombc`
 - Compared duckweed vs. water samples for significantly enhanced or lacking genera
 
-  
-- what did the program do?
-        - a paragraph or two at most (for each tool)
-- what did that produce?
-- what program did you use next?
-- write out whole pipeline ...
-- how did you visualize your results?
-
 ## Findings
 ![Taxonomic Bar Plot](image001.png)
 **Figure 1. Taxonomic Composition by Sample Type (Phylum Level)**
