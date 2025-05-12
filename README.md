@@ -68,11 +68,15 @@ The dataset includes:
 - how did you visualize your results?
 
 ## Findings
-- label figure (Figure1)
-- what kind of plot is it? (i.e., venn diagram)
-- what does the plot show? 
-- how did you create the plot?
-- what was the input to the plot?
+**Figure 1. Taxonomic Composition by Sample Type (Phylum Level)**
+- Barplot
+- Shows dominant phyla across duckweed and pond water microbiomes
+- Generated using qiime taxa barplot
+- Inputs:
+  - `asv-table.qza`
+  - `metadata.tsv`
+  - `taxonomy.qza`
+  
 - figure caption formatting
        - (do this for 2 figures)
 
