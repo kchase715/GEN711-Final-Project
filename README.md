@@ -80,7 +80,7 @@ The dataset includes:
 
  
 ![Alpha Rarefaction Curve 1](image002.png)
-
+![Alpha Rarefaction Curve 2](image003.png)
 **Figure 2. Alpha Rarefaction Curve (Observed Features)**
 - Line Graph
 - Shows alpha diversity plotted across sequencing depths
