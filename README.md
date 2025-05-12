@@ -52,6 +52,9 @@ The dataset includes:
 - Chose max-depth of 2500 based on frequency distribution
 
 #### Taxonomic Composition
+- Trained classifier using SILVA reference database
+  - Extracted 515F-806R region to match primers
+- Ran taxonomy classification with `qiime feature-classifier classify-skylearn`
 - Visualized using `qiime taxa barplot` at phylum level (Level 2)
 
 #### Differential Abundance
