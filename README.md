@@ -77,8 +77,13 @@ The dataset includes:
   - `asv-table.qza`
   - `metadata.tsv`
   - `taxonomy.qza`
-  
-- figure caption formatting
-       - (do this for 2 figures)
+
+**Figure 2. Alpha Rarefaction Curve (Observed Features)**
+- Line Graph
+- Shows alpha diversity plotted across sequencing depths
+- Created with `qiime diversity alpha-rarefaction`
+- Inputs:
+  - `alpha-rarefraction.qzv`
+- Confirms 2500 as a resonable sampling depth
 
 ## Citations
