@@ -65,7 +65,9 @@ The dataset includes:
 
 ## Findings
 ![Taxonomic Bar Plot](image001.png)
-**Figure 1. Taxonomic Composition by Sample Type (Phylum Level)**
+**Figure 1.** *Taxonomic composition of samples at the phylum level. Generated using QIIME2's
+taxa barplot tool, this visualization highlights major phyla such as Proteobacteria, Bacteroidota,
+and Cyanobacteria across duckweed and pond water samples.*
 - Barplot
 - Shows dominant phyla across duckweed and pond water microbiomes
 - Generated using qiime taxa barplot
@@ -77,7 +79,9 @@ The dataset includes:
  
 ![Alpha Rarefaction Curve 1](image002.png)
 ![Alpha Rarefaction Curve 2](image003.png)
-**Figure 2. Alpha Rarefaction Curve (Observed Features)**
+**Figure 2.** *Alpha rarefaction curve based on observed features. Created using QIIME2, this
+plot shows that a sequencing depth of 2500 reads per sample was sufficient to capture
+microbial diversity without significant loss of rare taxa.*
 - Line Graph
 - Shows alpha diversity plotted across sequencing depths
 - Created with `qiime diversity alpha-rarefaction`
