@@ -25,7 +25,7 @@ The dataset includes:
 ---
 
 ## Methods
-
+![Methods Flow Chart](M.Flow.C.png)
 ### Data Source 
 - Provided by a graduate student working on duckweed microbiomes
 - Data Type: Paired-end 250 bp reads (FASTQ format)
