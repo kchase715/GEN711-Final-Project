@@ -68,6 +68,7 @@ The dataset includes:
 - how did you visualize your results?
 
 ## Findings
+![Taxonomic Bar Plot](image001.png)
 **Figure 1. Taxonomic Composition by Sample Type (Phylum Level)**
 - Barplot
 - Shows dominant phyla across duckweed and pond water microbiomes
