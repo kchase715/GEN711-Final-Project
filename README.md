@@ -25,6 +25,7 @@ The dataset includes:
 ---
 
 ## Methods
+**Methods Flow Chart**
 ![Methods Flow Chart](M.Flow.C.png)
 ### Data Source 
 - Provided by a graduate student working on duckweed microbiomes
