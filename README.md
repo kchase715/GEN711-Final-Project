@@ -78,6 +78,9 @@ The dataset includes:
   - `metadata.tsv`
   - `taxonomy.qza`
 
+ 
+![Alpha Rarefaction Curve 1](image002.png)
+
 **Figure 2. Alpha Rarefaction Curve (Observed Features)**
 - Line Graph
 - Shows alpha diversity plotted across sequencing depths
