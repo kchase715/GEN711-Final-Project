@@ -42,6 +42,12 @@ The dataset includes:
 - Denoised using `qiime dada2 denoise-paired`
 - Generated feature table and representative sequences
 
+#### Taxonomic Composition
+- Trained classifier using SILVA reference database
+  - Extracted 515F-806R region to match primers
+- Ran taxonomy classification with `qiime feature-classifier classify-skylearn`
+- Visualized using `qiime taxa barplot` at phylum level (Level 2)
+
 #### q2-kmerizer + q2-boots
 - Used to perform kmer-based diversity analysis (instead of building phylogenetic trees)
 - Implemented via `qiime boots kmer-diversity`
@@ -50,12 +56,6 @@ The dataset includes:
 #### Alpha Rarefaction
 - Used `qiime diversity alpha-rarefaction` to assess species richness over sequencing depth
 - Chose max-depth of 2500 based on frequency distribution
-
-#### Taxonomic Composition
-- Trained classifier using SILVA reference database
-  - Extracted 515F-806R region to match primers
-- Ran taxonomy classification with `qiime feature-classifier classify-skylearn`
-- Visualized using `qiime taxa barplot` at phylum level (Level 2)
 
 #### Differential Abundance
 - Collapsed feature table to genus level
